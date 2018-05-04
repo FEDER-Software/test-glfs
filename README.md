@@ -19,3 +19,13 @@ Die original repository wo die Bilder geändert würden dagegen: 39M in.git, 52M
 Es bring schon was. Aber nicht so viel wie git-annex, wo die Bilder nicht git locale git landen. 
 Aber für der Betribsystem ist transparent, anderes als die symbolische Links von git-annex. 
 Wir könnten also gut nutzen.
+
+# PR: clon von ein Server ohne git-lfs Package installiert. Keine Fehlermeldung, so sieht es das Bild aus:
+
+   cat Sarawak_Orang_Ulu_leg_tattoo_examples_\(29151787612\).jpg 
+   version https://git-lfs.github.com/spec/v1
+   oid sha256:83d31fb14cd9c01992aa6bed5e5775e701c445dda792ec7ec7cbd8289f565ec2
+   size 13209334
+
+Das wäre für die Dev Laptops evtl. ein Vorteil. Die .git Repository hat jezt keine Bilder, 
+man sieht es im locale Browser nicht, aber dafür nimmt das ganze ganz wenig Platz. 
